@@ -19,7 +19,7 @@ These are different from Copilot Chat: they use specialised models focused on su
 ## Step 1 — Scan for Hardcoded Secrets
 Open copilot chat (`Ctrl+Alt+I`), type `/plugins` and install `advanced-security` or go to settings and use the `plugins`, from marketplace select `advanced-security` to activate the secret scanning skill. 
 
-Open `config.py` in VS Code. In Copilot Chat (`Ctrl+Alt+I`), type `#secret-scanning` to activate the skill, then paste the prompt below:
+Open `config.py` in VS Code. In Copilot Chat (`Ctrl+Alt+I`), type `#run_secret_scanning` to activate the skill, then paste the prompt below:
 
 ```
 Scan config.py for any hardcoded secrets, API keys, passwords, tokens, or credentials. Use the secret scanning skill to check each value against known secret patterns. List every finding with: variable name | value type | risk level | recommended fix.
@@ -37,7 +37,7 @@ Scan app.py for hardcoded secrets, JWT tokens, and API keys. List every finding 
 
 Open `app.py`. Select the entire `login()` function (lines 24–41).
 
-**Right-click** the selection → **Copilot** → **Review and Comment**.
+**Right-click** the selection → **Review**.
 
 Wait up to 30 seconds. Copilot posts review comments:
 - **Inline** in the editor at the relevant lines
