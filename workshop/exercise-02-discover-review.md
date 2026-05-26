@@ -39,7 +39,7 @@ Open `app.py`. Select the entire `login()` function (lines 24–41).
 
 **Right-click** the selection → **Review**.
 
-Wait up to 30 seconds. Copilot posts review comments:
+Wait for Copilot response to posted review comments:
 - **Inline** in the editor at the relevant lines
 - In the **Problems** tab (`Ctrl+Shift+M`)
 
